@@ -1,5 +1,83 @@
 .container {
 	width: 90%;
 	background-color: red;
-	border-radius: 12px;
+	border-radius: 0.75rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-size: 1.125rem;
+	margin-bottom: 1.25rem;
+}
+.red {
+	background: linear-gradient(
+			0deg,
+			rgba(255, 255, 255, 0.95) 0%,
+			rgba(255, 255, 255, 0.95) 100%
+		),
+		#f55;
+}
+.red-text {
+	/* ver color texto y flex*/
+	color: #f55;
+	font-size: 18px;
+	font-weight: 800;
+	display: flex;
+}
+
+.yellow {
+	background: linear-gradient(
+			0deg,
+			rgba(255, 255, 255, 0.95) 0%,
+			rgba(255, 255, 255, 0.95) 100%
+		),
+		#ffb21e;
+}
+
+.yellow-text {
+	color: #ffb21e;
+	font-size: 18px;
+	font-weight: 800;
+	display: flex;
+}
+
+.green {
+	background: linear-gradient(
+			0deg,
+			rgba(255, 255, 255, 0.95) 0%,
+			rgba(255, 255, 255, 0.95) 100%
+		),
+		#00bb8f;
+}
+
+.green-text {
+	color: #00bb8f;
+	font-size: 18px;
+	font-weight: 800;
+	display: flex;
+}
+
+.blue {
+	background: linear-gradient(
+			0deg,
+			rgba(255, 255, 255, 0.95) 0%,
+			rgba(255, 255, 255, 0.95) 100%
+		),
+		#1125d6;
+}
+
+.blue-text {
+	color: #1125d6;
+	font-size: 18px;
+	font-weight: 800;
+	display: flex;
+}
+
+.points {
+	font-size: 1.125rem;
+	opacity: 1;
+	font-weight: 800;
+}
+
+.result {
+	opacity: 0.5;
 }
